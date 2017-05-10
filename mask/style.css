@@ -4,11 +4,6 @@ html {
   min-height: 100%;
 }
 
-body {
-  background:url("../img/background.jpg") no-repeat;
-  background-attachment: fixed;
-}
-
 .contanier {
     text-align: center;
 }

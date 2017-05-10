@@ -10,6 +10,8 @@ div {
 
 body {
   position: relative;
+  background:url("img/background.jpg") no-repeat;
+  background-attachment: fixed;
   margin: 0;
   padding-bottom: 6rem;
   min-height: 100%;
@@ -28,4 +30,23 @@ body {
 
 .btn {
   height: 34px;
+}
+
+.ani {
+  animation-duration: 6s;
+  animation-name: slidein;
+  margin-left: 50px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%; 
+  }
+
+  to {
+    margin-left: 5%;
+    width: 100%;
+  }
 }

@@ -7,12 +7,6 @@
   border: 1px dotted grey;
 }
 
-body {
-  background:url("../img/background.jpg") no-repeat;
-  background-attachment: fixed;
- 
-}
-
 .picture {
   height: 140px;
   width:  140px;
