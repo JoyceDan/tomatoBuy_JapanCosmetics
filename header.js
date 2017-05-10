@@ -55,7 +55,7 @@ document.write('</div>')
 document.write('</form>')
 
 document.write('<ul class="nav navbar-nav navbar-right">')
-document.write('<li><a href="../Credit/index.html">积分墙</a></li>')
+document.write('<li><a href="../creditWall/index.html">积分墙</a></li>')
 document.write('<li><a href="#">登录</a></li>')
 document.write('<li class="dropdown">')
 document.write('<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">个人中心 <span class="caret"></span></a>')

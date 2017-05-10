@@ -15,9 +15,6 @@ body {
   min-height: 100%;
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
-.height-contrl {
-  height: 100px;
-}
 
 .footer {
   position: absolute;
