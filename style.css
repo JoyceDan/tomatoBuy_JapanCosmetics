@@ -25,3 +25,7 @@ body {
   background-color: #efefef;
   text-align: center;
 }
+
+.btn {
+  height: 34px;
+}
