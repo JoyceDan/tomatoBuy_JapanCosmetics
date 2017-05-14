@@ -60,7 +60,7 @@ p {
 }
 
 .content img {
-  max-width: 300px;
+  width: 300px;
   display: block;
   height: auto;
 }
@@ -89,15 +89,27 @@ p {
 }
 
 .text {
+  margin: 5px;
   word-wrap: break-word;
   width: 300px;
   color: #2b2a29;
   font-size: 20px;
   position: absolute;
-  overflow: hidden;
-  text-align: justify;
-  top: 20%;
-  left: 50%;
+  overflow: scroll;
+  text-align: left;
+  top: 140px;
+  left: 49%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+
+.btns {
+  border: none;
+  background-color: white;
+  float: right;
+}
+
+.fol {
+  float: right;
+  margin-right: 10px;
 }
